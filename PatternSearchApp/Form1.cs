@@ -23,7 +23,6 @@ namespace PatternSearchApp
 			richTextBox2.Text = "";
 			string pattern = textBoxPattern.Text;
 			Match match;
-			List<string> matcher = new List<string>();
 
 			foreach (var item in richTextBox1.Text.Split('\n'))
 			{
